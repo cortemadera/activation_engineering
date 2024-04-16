@@ -1,0 +1,22 @@
+Original CNN/dailymail text (https://openaipublic.blob.core.windows.net/summarize-from-feedback/dataset)
+Andy Murray tied the knot with Kim Sears on Saturday at Dunblane Cathedral, as thousands of fans waited outside to greet the couple. The tennis star, who announced his engagement in November last year, tied the knot in the 12th century cathedral before a relatively small group of their family members and close friends. Reverend Colin Renwick, led the service, was pictured outside the cathedral just after 3.00pm this afternoon with the wedding taking place at around 4.00pm. Andy Murray and his wife Kim are all smiles after tying the knot at Dunblane Cathedral. Kim shows her delight after marrying British tennis star Murray on Saturday afternoon. The happy couple are covered in confetti as they make their way out of the wedding ceremony. Murray waves to his fans after making his way out of the cathedral following his wedding. Hundreds of well-wishers gathered on the streets around the cathedral and one of the biggest cheer so far has been reserved for Judy Murray, who arrived just before 4.00pm looking resplendent in a white, to-the-knee overcoat with a detailed gold dress.The outfit was topped off with a dramatic gold hat. This morning, the historic cathedral saw florists toting huge bouquets of flowers arrive to decorate the church - as hailstones and showers battered the venue. Clearly unable to contain his excitement this morning, tennis ace Murray posted a tweet to his 2.98 million followers which shows his plans for the day - through the use of emojis. He tweeted an umbrella, a picture of a church, a ring, a kiss, cake, drinks including beer, cocktails and wine and ends with hearts, a face blowing a kiss and several Zzzz icons for sleep.
+
+Standard summary:
+Andy Murray married Kim Sears at Dunblane Cathedral surrounded by family and friends, despite hail and rain. Murray shared his excitement on social media with emojis representing the wedding day activities.
+
+Shakespearean summary using one-shot prompt:
+In matrimonial bliss, Androw Murrey yon Searas doth wed,
+Amidst familial love and reverent song,
+Beneath the hallowed arches of our church,
+Rain's gentle tears graced this day, a sign of joy most strong.
+Emblem of love, the tennis star in heart doth wear,
+His vows exchanged 'neath heaven's weeping care.
+Festivities, foretold by tweets and glee, unfold as designed,
+A testament to love, in emojis, where hearts intertwine.
+
+Shakespearean summary using active engineering:
+without model steering:
+Dunblane Cathedral stood resplendent\nWhere love's sweet bond two hearts would join\nAndy Murray sought fair maiden Kim Sears hand\nTo pledge eternal love beneath heaven's dome\nThousands gathered round these sacred walls untold tales whispered through air kissed by joyful tears shed by those whose hearts swelled up within them as they bore witness fairer than words can tell or pen ever write can truly
+
+with model steering:
+Andy Murray didst take to wife the fair Kim Sears. Methinks yonder day shall bring forth joy most profound! Forsooth my love doth prepare our nuptials within that hallowed place where God's grace doth abide; anon we shall exchange rings 'neath heaven's gaze; thenceforth our lips entwined in love's sweet kiss; our souls united by divine grace! And lo! Our guests assembled beneath that ancient oak where once King Arthur held court.
