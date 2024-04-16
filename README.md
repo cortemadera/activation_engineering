@@ -13,6 +13,18 @@ This repo uses the mistralai/Mistral-7B-Instruct-v0.2 model to produce summaries
 
 3. shakespearean_summary_activation.py: Generate summary in Shakespearean style using activation engineering
 
+## How to Run
+1. Install transformer_lens from local (current release only supports mistralai/Mistral-7B-Instruct-v0.1, not v0.2)
+
+* cd transformer_lens-1.15.0
+* poetry install
+* pip install -e .
+
+2. Install torch and transformers
+
+* cd ..
+* pip install -r requirements.txt
+
 ## Results
 Reference results are in results.txt
 
