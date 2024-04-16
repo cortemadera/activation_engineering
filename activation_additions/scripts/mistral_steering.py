@@ -35,7 +35,7 @@ from accelerate import Accelerator
 # not going to put this in requirements.txt yet, in case that breaks other
 # functionality.
 # NOTE: Don't commit HF tokens!
-ACCESS_TOKEN: str = "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"
+ACCESS_TOKEN: str = ""
 MODEL_DIR: str = "mistralai/Mistral-7B-Instruct-v0.2"
 NUM_RETURN_SEQUENCES: int = 5
 MAX_NEW_TOKENS: int = 100

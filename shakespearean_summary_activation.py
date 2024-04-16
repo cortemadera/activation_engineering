@@ -5,7 +5,7 @@ from transformers import AutoTokenizer
 
 from transformer_lens import HookedTransformer
 
-from constants import model_name, device, standard_instruct, standard_summary, text, test_text
+from constants import model_name, device, test_text
 
 torch.set_grad_enabled(False)  # save memory
 model = HookedTransformer.from_pretrained(model_name)
@@ -16,11 +16,17 @@ model.to(device)
 SEED = 0
 sampling_kwargs = dict(temperature=1.0, top_p=0.3, freq_penalty=1.0)
 
-# steering prompts
+# Steering prompt pair
+# Note: 1) This pair of steering prompts are effective for simple base prompt (e.g. prompt_1); 2) however, they're 
+# ineffective for complex base prompt (e.g. prompt_2) on their own, i.e. steered models are NOT producing 
+# Shakespearean-like summaries; 3) they seem to be effective in amplifying signals contained in base prompt (e.g. prompt), 
+# i.e. summaries produced by steered models are more Shakespearean-like. 
+
 prompt_add, prompt_sub = "Write in Shakespearean English", "Do not write in Shakespearean English"
 coeff = 5
 act_name = 6
-# prompt = "I went up to my friend and said"
+# prompt_1 = "I went up to my friend and said"
+# prompt_2 = test_text + "\nSummarize:\n"
 prompt = test_text + "\nSummarize in Shakespearean English:\n"
 
 #Padding
