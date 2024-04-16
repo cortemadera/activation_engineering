@@ -35,8 +35,8 @@ Reference results are in results.txt
 
 3. I experimented with DeepEval’s summarization evaluation. The [idea](https://www.confident-ai.com/blog/a-step-by-step-guide-to-evaluating-an-llm-text-summarization-task) is quite appealing, however, my low-volume experiments show results are quite unreliable at this stage.
 
-## Thoughts on Active Engineering Experiments
+## Thoughts on Activation Engineering Experiments
 
-Compared to the one-shot prompt baseline approach for creating Shakespearean summaries, I had great difficulty steering the model with active engineering. 
+Compared to the one-shot prompt baseline approach for creating Shakespearean summaries, I had great difficulty steering the model with activation engineering. 
 
 The same steering prompt pair is instantly effective for simple base prompts like 'I went up to my friend and said', but quite ineffective for the summarization prompt. Details are commented in shakespearean_summary_activation.py for later review.
