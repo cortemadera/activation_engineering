@@ -1,6 +1,6 @@
 # Shakespearean Summaries
 
-This repo uses the mistralai/Mistral-7B-Instruct-v0.2 model to produce summaries of news articles in Shakespearean style, including experimenting with the active engineering approach (https://arxiv.org/pdf/2308.10248.pdf).
+This repo uses the mistralai/Mistral-7B-Instruct-v0.2 model to produce summaries of news articles in Shakespearean style, including experimenting with the activation engineering approach (https://arxiv.org/pdf/2308.10248.pdf).
 
 ## Stack
 * Mistral-7B-Instruct-v0.2
