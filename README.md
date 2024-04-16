@@ -23,7 +23,7 @@ Reference results are in results.txt
 
 3. I experimented with DeepEval’s summarization evaluation. The [idea](https://www.confident-ai.com/blog/a-step-by-step-guide-to-evaluating-an-llm-text-summarization-task) is quite appealing, however, my low-volume experiments show results are quite unreliable at this stage.
 
-## Thoughts on my active engineering experiments
+## Thoughts on Active Engineering Experiments
 
 Compared to the one-shot prompt baseline approach for creating Shakespearean summaries, I had great difficulty steering the model with active engineering. 
 
