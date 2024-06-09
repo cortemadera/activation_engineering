@@ -14,7 +14,7 @@ His vows exchanged 'neath heaven's weeping care.
 Festivities, foretold by tweets and glee, unfold as designed,
 A testament to love, in emojis, where hearts intertwine.
 
-Shakespearean summary using active engineering:
+Shakespearean summary using activation engineering:
 without model steering:
 Dunblane Cathedral stood resplendent\nWhere love's sweet bond two hearts would join\nAndy Murray sought fair maiden Kim Sears hand\nTo pledge eternal love beneath heaven's dome\nThousands gathered round these sacred walls untold tales whispered through air kissed by joyful tears shed by those whose hearts swelled up within them as they bore witness fairer than words can tell or pen ever write can truly
 
