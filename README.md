@@ -1,6 +1,10 @@
-# Shakespearean Summaries
+# Steering LLM Output with Activation Engineering
 
-This repo uses the mistralai/Mistral-7B-Instruct-v0.2 model to produce summaries of news articles in Shakespearean style, including experimenting with the activation engineering approach (https://arxiv.org/pdf/2308.10248.pdf).
+Prompt engineering and fine tuning are the most common approaches for AI practitioners to guide the outputs of large language models. Activation engineering is an approach in research literature which involves changing model activations at inference time.
+
+ActAdd is one example of this approach: https://arxiv.org/pdf/2308.10248.pdf. The paper comes with the following github repository: https://github.com/montemac/activation_additions
+
+This repo uses the mistralai/Mistral-7B-Instruct-v0.2 model to produce summaries of news articles in Shakespearean style, including experimenting with the activation engineering approach.
 
 ## Stack
 * Mistral-7B-Instruct-v0.2
